@@ -29,8 +29,20 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header clearfix">
-                        <h2 class="pull-left">Employees Details</h2>
+                        <h2 class="pull-left">::Tutorz Door::</h2>
                         <a href="create.php" class="btn btn-success pull-right">Add New Employee</a>
+                        <table>
+                                <tr>
+                                    <th> Name</th>
+                                    <th>Age<th>
+                                    <th>Email</th>
+                            </tr>
+                            <tr>
+                                <th>Demo</th>
+                                <th>27</th>
+                                <th>Demouser@gmail.com</th>
+                            </tr>
+                        </table>
                     </div>
                     <?php
                     // Include config file
