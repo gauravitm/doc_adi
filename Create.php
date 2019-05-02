@@ -33,7 +33,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     } elseif(!ctype_digit($input_salary)){
         $salary_err = "Please enter a positive integer value.";
     } else{
-        $salary = $input_salary;
+        $salary = $input_salary; 
     }
     
     // Check input errors before inserting in database
